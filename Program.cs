@@ -15,7 +15,7 @@ namespace SoulResurrection {
         }
 
         private static void IsMainModPresent(IRunnabilityState state) {
-            if (!state.RawLoadOrder.Any((x) => x.FileName == "SoulResurrection.esp"))
+            if (!state.LoadOrder.Any((x) => x.Value.FileName == "SoulResurrection.esp"))
                 throw new Exception("Missing master!");
         }
 
