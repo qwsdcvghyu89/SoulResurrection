@@ -1,0 +1,13 @@
+{
+  "Nickname": "SoulResurrection",
+  "Visibilty": "Visible",
+  "OneLineDescription": "Required patcher for SoulResurrection mod",
+  "LongDescription": "Patches the 'Bone Marrow' item into every NPC, including modded ones",
+  "PreferredAutoVersioning": "Default",
+  "RequiredMods": [
+    "SoulResurrection.esp"
+  ],
+  "TargetedReleases": [
+    "SkyrimSE"
+  ]
+}
